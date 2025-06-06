@@ -1,0 +1,23 @@
+.FOOM{
+
+  margin-left: 40%;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 45%;
+}
+
+.b1 {
+  padding: 12px;
+  background-color: #cc0000;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-left: 50%;
+}
+
+.b1:hover {
+  background-color: #ff3333;
+}
