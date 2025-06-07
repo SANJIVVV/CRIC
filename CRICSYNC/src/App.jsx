@@ -1,12 +1,12 @@
 import React from 'react';
-// import Loginpage from './Loginpage';
+import Login from './Login';
 import TournamentForm from './CreateTournament';
 
 function App() {
 
   return (
     <>
-      <TournamentForm />
+      <Login />
     </>
   );
 }
