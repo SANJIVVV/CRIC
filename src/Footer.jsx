@@ -17,20 +17,18 @@ function Footer(){
     </section>
 
     <footer className="bg-gray-800 text-gray-100 py-8">
-      <div >
-        
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
         <div>
-          <h3>Contact Us</h3>
+          <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
           <ul>
-            <li>Email: Yotta@gmail.com</li>
-            <li>Phone: +91 9043872476</li>
+            <li>Email: Cicsync@gmail.com</li>
+            <li>Phone: +91 90438 72476</li>
             <li>Address: PSG Tech, Coimbatore</li>
           </ul>
         </div>
 
-       
         <div>
-          <h3>Privacy</h3>
+          <h3 className="text-lg font-semibold mb-2">Privacy</h3>
           <ul className="space-y-1">
             <li><a href="#" className="hover:text-blue-400">Privacy Policy</a></li>
             <li><a href="#" className="hover:text-blue-400">Terms of Service</a></li>
@@ -38,9 +36,8 @@ function Footer(){
           </ul>
         </div>
 
-      
         <div>
-          <h3>Follow Us</h3>
+          <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
           <div className="flex space-x-4">
             <a href="#" className="hover:text-blue-400">Instagram</a>
             <a href="#" className="hover:text-blue-400">Facebook</a>
@@ -49,8 +46,8 @@ function Footer(){
         </div>
       </div>
 
-      <div>
-        @2025  Yotta Web Services. All rights reserved.
+      <div className="text-center text-xs mt-6 text-gray-500">
+        @2025 CricSync. All rights reserved.
       </div>
     </footer>
     </>
