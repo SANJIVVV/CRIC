@@ -1,4 +1,4 @@
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AdminLogin from './AdminLogin'
 import './App.css'
 import Features from './Features'
@@ -9,12 +9,15 @@ import Header from './Header'
 function App() {
 
   return (
-    <>
-    <Header />
-    <Features />
-    <Footer />
-    <AdminLogin />
-    </>
+   <Router>
+      <Header />
+      <Features />
+      <Footer />
+  
+      <Routes>
+        <Route path="/admin" element={<AdminLogin />} />
+      </Routes>
+    </Router>
   )
 }
 

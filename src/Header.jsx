@@ -14,7 +14,7 @@ function Header()
     </header>
 
     <section className="bg-[url('/ss.jpg')] bg-cover bg-center  h-[60vh] flex items-center justify-center flex-col text-center px-4 text-white">
-      <h1 className="text-4xl font-bold mb-4">Join the Excitement of Live Cricket Tournaments!</h1>
+      <h1 className="text-5xl font-bold mb-4">Join the Excitement of Live Cricket Tournaments!</h1>
       <p className="text-lg">Track matches, register your team, and view live stats now!</p>
     </section>
     </>
