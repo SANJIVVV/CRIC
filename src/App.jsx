@@ -12,14 +12,8 @@ function App() {
 
   return (
    <Router>
-      <Header />
-      <Features />
-      <Footer />
-      
-      
-      
-  
       <Routes>
+        <Route path="/" element={<><Header /> <Features /> <Footer/></>}/>
         <Route path="/admin" element={<Admin />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<TeamLogin/>} />
