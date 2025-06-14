@@ -4,6 +4,7 @@ import Features from './Features'
 import Footer from './Footer'
 import Header from './Header'
 import Admin from "./Admin"
+import TeamLogin from "./TeamLogin";
 import Register from "./Register";
 
 
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Features />
       <Footer />
+      <TeamLogin/>
       
       
   
