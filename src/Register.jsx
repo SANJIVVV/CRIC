@@ -285,15 +285,12 @@ function Register()
       //-----------------start------------------
   
         //bg-[#c2fff8]  #b2dbec    bg-gradient-to-r from-[#00ffff] to-white  #e1ebeb
-        <div className=" bg-center bg-cover bg-no-repeat bg-fixed p-[50px]" style={{ backgroundImage: "url('./st.ppng')"}} >
+        <div className=" bg-center bg-cover bg-no-repeat bg-fixed p-[50px]" >
               
 
               <div className=" m-auto  flex flex-col w-1/4 min-w-[500px] bg-white   pt-0 pl-0 p-4 pr-0  border border-slate-300 shadow-black shadow-sm rounded-[10px] text-slate-700 font-medium">
                   
-                  <div  className=" bg-[#b2dbec]  w-full pb-[60px] pr-[10px]  rounded-[10px] rounded-b-sm bg-right bg-contain bg-no-repeat" style={{ backgroundImage: "url('./bg-s1.png')"}} > 
-                   <div className="flex pl-2 pt-3">
-                      <div>
-                        <h1 className=" text-[47px] font-bold text-green-600 text-center"> Cric Sync</h1>
+                  <div >
                         <p className="text-center mt-3 mb-3 text-black font-semibold">SignUp as?</p>
                         <div className="flex flex-nowrap justify-center">
                           <button className="px-6 py-2 border-2 border-green-600 text-green-700 font-semibold rounded-full bg-white hover:bg-green-600 hover:text-white hover:shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2" onClick={()=>changeUser(user)}>User</button>
@@ -301,9 +298,6 @@ function Register()
                           <button className="px-6 py-2 border-2 border-green-600 text-green-700 font-semibold rounded-full bg-white hover:bg-green-600 hover:text-white hover:shadow-md transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2" onClick={()=>changeUser(team)}>Team</button>        
                         </div>
                        </div>
-                   </div>
-                </div>
-
 
                 
                   <h1 className="text-[30px] text-center font-bold font-sans m-5 text-green-700">
