@@ -4,6 +4,7 @@ import Features from './Features'
 import Footer from './Footer'
 import Header from './Header'
 import Admin from "./Admin"
+import Register from "./Register";
 
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
       <Features />
       <Footer />
       
+      
   
       <Routes>
         <Route path="/admin" element={<Admin />} />
-        
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   )
