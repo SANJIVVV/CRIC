@@ -27,7 +27,7 @@ function Admin() {
                 className="absolute top-2.5 right-3 cursor-pointer text-gray-600"
                 onClick={() => setShowPassword(!showPassword)}
               >
-                {showPassword ? <EyeOff size={30} /> : <Eye size={20} />}
+                {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
               </span>
             </div>
 
