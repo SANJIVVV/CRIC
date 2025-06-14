@@ -15,13 +15,14 @@ function App() {
       <Header />
       <Features />
       <Footer />
-      <TeamLogin/>
+      
       
       
   
       <Routes>
         <Route path="/admin" element={<Admin />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<TeamLogin/>} />
       </Routes>
     </Router>
   )

@@ -8,7 +8,7 @@ function Footer() {
         <p className="mb-6 text-lg">Register your team or login to follow the tournament live.</p>
         <div className="space-x-4">
           <Link to="/register" className="bg-white text-green-700 px-6 py-2 rounded shadow hover:bg-gray-100 transition transform hover:scale-105 font-semibold">Register</Link>
-          <a href="#login" className="bg-blue-500 px-6 py-2 text-white rounded shadow hover:bg-blue-600 transition transform hover:scale-105 font-semibold">Login</a>
+          <Link to="/login" className="bg-blue-500 px-6 py-2 text-white rounded shadow hover:bg-blue-600 transition transform hover:scale-105 font-semibold">Login</Link>
         </div>
       </section>
 
