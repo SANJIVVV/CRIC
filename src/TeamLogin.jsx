@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Login from './assets/Login.jpeg';
+import Login from './assets/Login.jpg';
 import validator from "validator";
 import { EyeOff, Eye } from "lucide-react";
 
@@ -152,7 +152,7 @@ function TeamLogin() {
           </div>
         </div>
 
-        <div className="hidden md:block w-1/2">
+        <div className="shadow-xl hidden md:block w-1/2">
           <img
             src={Login}
             alt="Login Visual"
