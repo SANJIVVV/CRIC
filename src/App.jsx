@@ -4,6 +4,7 @@ import Features from './Features'
 import Footer from './Footer'
 import Header from './Header'
 import Admin from "./Admin"
+import TeamLogin from "./TeamLogin";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Header />
       <Features />
       <Footer />
-      
+      <TeamLogin/>
   
       <Routes>
         <Route path="/admin" element={<Admin />} />

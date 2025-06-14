@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Login from './assets/Login.jpg';
+import Login from './assets/Login.jpeg';
 import validator from "validator";
 import { EyeOff, Eye } from "lucide-react";
 
