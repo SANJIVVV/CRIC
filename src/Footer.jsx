@@ -1,23 +1,39 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Footer() {
+  const navigate = useNavigate();
+
   return (
     <>
       <section className="text-center py-12 bg-gradient-to-r from-green-600 to-green-800 text-white">
         <h2 className="text-4xl font-bold mb-3"> Get Started Today!</h2>
         <p className="mb-6 text-lg">Register your team or login to follow the tournament live.</p>
         <div className="space-x-4">
-          <a href="#register" className="bg-white text-green-700 px-6 py-2 rounded shadow hover:bg-gray-100 transition transform hover:scale-105 font-semibold">Register</a>
-          <a href="#login" className="bg-blue-500 px-6 py-2 text-white rounded shadow hover:bg-blue-600 transition transform hover:scale-105 font-semibold">Login</a>
+          <button
+            onClick={() => navigate('/register')}
+            className="bg-white text-green-700 px-6 py-2 rounded shadow hover:bg-gray-100 transition transform hover:scale-105 font-semibold"
+          >
+            Register
+          </button>
+          <button
+            onClick={() => navigate('/login')}
+            className="bg-blue-500 px-6 py-2 text-white rounded shadow hover:bg-blue-600 transition transform hover:scale-105 font-semibold"
+          >
+            Login
+          </button>
         </div>
       </section>
 
       <section className="bg-gray-800 text-white p-6 text-center">
         <p className="text-lg"> Are you an <strong>Organizer</strong>?</p>
-        <Link to="/admin" className="mt-3 inline-block bg-yellow-400 text-black px-6 py-2 rounded-full font-bold hover:bg-yellow-300 transition transform hover:scale-105">
+        <button
+          onClick={() => navigate('/admin')}
+          className="mt-3 inline-block bg-yellow-400 text-black px-6 py-2 rounded-full font-bold hover:bg-yellow-300 transition transform hover:scale-105"
+        >
           Login to Admin Panel
-        </Link>
+        </button>
       </section>
+
       <footer className="bg-gray-800 text-gray-100 py-10">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 text-sm">
           <div>
