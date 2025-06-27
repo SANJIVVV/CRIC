@@ -1,0 +1,18 @@
+
+npm install react-router-dom@7 lucide-react @hello-pangea/dnd validator yup
+
+
+FRONTEND MAIN FILE - app.jsx
+BACKEND MAIN FILE - index.jsx
+
+
+RUNNING COMMAND
+
+FRONTEND - cd CRIC
+           npm run dev
+
+BACKEND - cd server
+          node index.js
+
+
+          THANK YOU 
