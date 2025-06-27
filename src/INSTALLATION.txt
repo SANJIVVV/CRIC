@@ -1,7 +1,54 @@
+#------ REACT VITE INSTALLATION
+
+npm  create vite@latest
+Project name :/*give Project name */
+Package name :/*give Package name */
+Select a framework: React
+Select a Variant: javaScript
+  
+
+
+
+
+
+
+#------- OTHERS MODULES
 
 npm install react-router-dom@7 lucide-react @hello-pangea/dnd validator yup
 
 
+#------Tailwind INSTALLATION
+
+----------01
+
+Terminal
+
+npm install tailwindcss @tailwindcss/vite
+
+
+-----------02
+
+Configure the Vite plugin
+Add the @tailwindcss/vite plugin to your Vite configuration.
+
+vite.config.ts
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+-----------03
+
+Import Tailwind CSS
+Add an @import to your CSS file that imports Tailwind CSS.
+
+CSS
+@import "tailwindcss";
+
+---------------------------------------------------
 FRONTEND MAIN FILE - app.jsx
 BACKEND MAIN FILE - index.jsx
 
